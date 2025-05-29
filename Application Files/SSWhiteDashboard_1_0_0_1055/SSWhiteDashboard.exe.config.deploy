@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <configSections>
+    <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <section name="SSWhiteDashboard.My.MySettings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+    </sectionGroup>
+    <sectionGroup name="applicationSettings" type="System.Configuration.ApplicationSettingsGroup, System">
+      <section name="DevExpress.LookAndFeel.Design.AppSettings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+    </sectionGroup>
+  </configSections>
+  <applicationSettings>
+    <DevExpress.LookAndFeel.Design.AppSettings>
+      <setting name="DefaultAppSkin" serializeAs="String">
+        <value>Skin/Seven Classic</value>
+      </setting>
+      <setting name="DefaultPalette" serializeAs="String">
+        <value></value>
+      </setting>
+      <setting name="TouchUI" serializeAs="String">
+        <value></value>
+      </setting>
+      <setting name="CompactUI" serializeAs="String">
+        <value></value>
+      </setting>
+      <setting name="TouchScaleFactor" serializeAs="String">
+        <value></value>
+      </setting>
+      <setting name="DirectX" serializeAs="String">
+        <value>True</value>
+      </setting>
+      <setting name="RegisterUserSkins" serializeAs="String">
+        <value>True</value>
+      </setting>
+      <setting name="RegisterBonusSkins" serializeAs="String">
+        <value>True</value>
+      </setting>
+      <setting name="FontBehavior" serializeAs="String">
+        <value>UseTahoma</value>
+      </setting>
+      <setting name="DefaultAppFont" serializeAs="String">
+        <value></value>
+      </setting>
+      <setting name="DPIAwarenessMode" serializeAs="String">
+        <value>System</value>
+      </setting>
+      <setting name="CustomPaletteCollection" serializeAs="Xml">
+        <value />
+      </setting>
+    </DevExpress.LookAndFeel.Design.AppSettings>
+  </applicationSettings>
+  <connectionStrings>
+    <add name="localhost_TEST_PLUTO_Connection" connectionString="XpoProvider=MSSqlServer;data source=sswdb\sswdb;user id=;password=;initial catalog=TEST_PLUTO;Persist Security Info=true" />
+    <add name="localhost_TEST_PLUTO_Connection_1" connectionString="XpoProvider=MSSqlServer;data source=sswdb\sswdb;user id=pluto;password=seki!kyu;initial catalog=TEST_PLUTO;Persist Security Info=true" />
+  </connectionStrings>
+  <system.diagnostics>
+    <sources>
+      <!-- This section defines the logging configuration for My.Application.Log -->
+      <source name="DefaultSource" switchName="DefaultSwitch">
+        <listeners>
+          <add name="FileLog" />
+          <!-- Uncomment the below section to write to the Application Event Log -->
+          <!--<add name="EventLog"/>-->
+        </listeners>
+      </source>
+    </sources>
+    <switches>
+      <add name="DefaultSwitch" value="Information" />
+    </switches>
+    <sharedListeners>
+      <add name="FileLog" type="Microsoft.VisualBasic.Logging.FileLogTraceListener, Microsoft.VisualBasic, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" initializeData="FileLogWriter" />
+      <!-- Uncomment the below section and replace APPLICATION_NAME with the name of your application to write to the Application Event Log -->
+      <!--<add name="EventLog" type="System.Diagnostics.EventLogTraceListener" initializeData="APPLICATION_NAME"/> -->
+    </sharedListeners>
+  </system.diagnostics>
+  <startup useLegacyV2RuntimeActivationPolicy="true">
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7.2" />
+  </startup>
+  <runtime>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="ComponentFactory.Krypton.Toolkit" publicKeyToken="a87e673e9ecb6e8e" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-4.4.0.0" newVersion="4.4.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="CrystalDecisions.Shared" publicKeyToken="692fbea5521e1304" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-13.0.2000.0" newVersion="13.0.2000.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="CrystalDecisions.CrystalReports.Engine" publicKeyToken="692fbea5521e1304" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-13.0.2000.0" newVersion="13.0.2000.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+  </runtime>
+  <userSettings>
+    <SSWhiteDashboard.My.MySettings>
+      <setting name="treeOrder" serializeAs="Xml">
+        <value>
+          <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+            <string>0</string>
+            <string>1</string>
+            <string>2</string>
+            <string>3</string>
+            <string>4</string>
+            <string>5</string>
+            <string>6</string>
+            <string>7</string>
+            <string>8</string>
+            <string>9</string>
+            <string>10</string>
+            <string>11</string>
+          </ArrayOfString>
+        </value>
+      </setting>
+      <setting name="myFavorites" serializeAs="Xml">
+        <value>
+          <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+            <string>Information Technology\Reports\Dashboard Release Notes</string>
+          </ArrayOfString>
+        </value>
+      </setting>
+      <setting name="UpgradeRequired" serializeAs="String">
+        <value>True</value>
+      </setting>
+      <setting name="MenuAutosize" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="MenuWidth" serializeAs="String">
+        <value>400</value>
+      </setting>
+      <setting name="MenuAutohide" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="MenuDockLocation" serializeAs="String">
+        <value>Left</value>
+      </setting>
+      <setting name="MenuFloatLocation" serializeAs="String">
+        <value>1180, 54, 400, 760</value>
+      </setting>
+      <setting name="SingleWindowInterface" serializeAs="String">
+        <value>True</value>
+      </setting>
+      <setting name="NotificationLastRead" serializeAs="String">
+        <value>1601-01-01</value>
+      </setting>
+      <setting name="NotificationDeptLastRead" serializeAs="String">
+        <value>1601-01-01</value>
+      </setting>
+      <setting name="NotificationUserLastRead" serializeAs="String">
+        <value>1601-01-01</value>
+      </setting>
+    </SSWhiteDashboard.My.MySettings>
+  </userSettings>
+</configuration>

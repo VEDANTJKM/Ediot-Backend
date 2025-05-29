@@ -1,0 +1,6 @@
+@EpicorApi_HostAddress = http://localhost:5202
+
+GET {{EpicorApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
