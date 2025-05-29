@@ -19,7 +19,7 @@ namespace Dashboard.Controllers
                 "AssemblyCNCPart" => ("P", "ASPC", "Assembly Spares CNC"),
                 "CuttingToolsCNC" => ("P", "CT", "Cutting Tools CNC"),
                 "Electrical" => ("P", "ELEC", "Electricals"),
-                "Fasteners" => ("P", "FAST", "Fasteners"),
+                "Fasteners" => ("P", "FAST", "Fasteners"), 
                 "Gauges" => ("P", "GUAG", "Gauges"),
                 "Housekeeping" => ("P", "HKEP", "House Keeping"),
                 "ManufacturingCNCPart" => ("M", "FGC", "Finished Good CNC"),
